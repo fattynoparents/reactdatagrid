@@ -71,7 +71,7 @@ const DEFAULT_I18N = {
     empty: 'Empty',
     lt: 'Less than',
     lte: 'Less than or equal',
-    gt: 'Greater than',
+    gt: 'Больше чем',//'Greater than',
     gte: 'Greater than or equal',
     before: 'Before',
     beforeOrOn: 'Before or on',
@@ -80,7 +80,7 @@ const DEFAULT_I18N = {
     start: 'Start',
     end: 'End',
     dragHeaderToGroup: 'Drag header to group',
-    noRecords: 'No records available',
+    noRecords: 'Нет подходящих записей'//'No records available',
 };
 const renderLoadMask = (props) => {
     const loadMaskProps = {
